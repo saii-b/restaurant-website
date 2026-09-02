@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ================= NAVBAR ================= */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.navbar {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+.logo span {
+    color: #f4b942;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* ================= HERO SECTION ================= */
+
+.hero {
+    height: 100vh;
+
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+    ), url("heroo.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    max-width: 750px;
+    padding: 20px;
+}
+
+
+.welcome-text {
+    color: #f4b942;
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.hero-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+    line-height: 1.1;
+}
+
+
+.hero-content h1 span {
+    color: #f4b942;
+}
+
+
+.hero-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-top: 8px;
+}
+
+
+.hero-description {
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 25px auto;
+    max-width: 600px;
+    color: #f1f1f1;
+}
+
+
+/* Hero Buttons */
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 13px 28px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+
+.primary-btn {
+    background-color: #f4b942;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+
+.secondary-btn {
+    border: 1px solid white;
+    color: white;
+}
+
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .hero-content h1 {
+        font-size: 50px;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .navbar {
+        height: 65px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero-content h2 {
+        font-size: 25px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 180px;
+    }
+
+}
+/* ================= INTRO SECTION ================= */
+
+.intro {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #7466;
+}
+
+.intro p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+}
+/* ================= MENU SECTION ================= */
+
+.menu-section {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.menu-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+
+/* Menu Cards Container */
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* Individual Menu Card */
+
+.menu-card {
+    width: 230px;
+    padding: 30px 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.menu-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+.menu-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.menu-card span {
+    color: #f4b942;
+    font-weight: bold;
+}
