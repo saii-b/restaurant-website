@@ -105,7 +105,7 @@ header {
 
 
 .welcome-text {
-    color: #f4b942;
+    color: #f5ddad;
     letter-spacing: 4px;
     font-size: 14px;
     margin-bottom: 15px;
@@ -120,7 +120,7 @@ header {
 
 
 .hero-content h1 span {
-    color: #f4b942;
+    color: #f4b948;
 }
 
 
@@ -159,7 +159,7 @@ header {
 
 
 .primary-btn {
-    background-color: #f4b942;
+    background-color: #f4b948;
     color: #1a1a1a;
     font-weight: 600;
 }
@@ -425,6 +425,7 @@ MENU - MOBILE
 .intro {
     padding: 80px 10%;
     text-align: center;
+    
 }
 
 .intro h2 {
@@ -445,7 +446,7 @@ MENU - MOBILE
 .menu-section {
     padding: 80px 10%;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #fcf9f3;
 }
 
 .menu-section h2 {
@@ -522,7 +523,7 @@ MENU - MOBILE
 
     text-align: center;
 
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -557,7 +558,7 @@ MENU - MOBILE
 
 .about-hero-content h1 span {
 
-    color: #d89b3d;
+    color: #f4b942;
 
 }
 
@@ -584,7 +585,7 @@ MENU - MOBILE
 
     padding: 80px 8%;
 
-    background: #fff;
+    background: #fcf9f3;
 
 }
 
@@ -653,41 +654,107 @@ MENU - MOBILE
     flex: 0.8;
 
 }
+/* ================= ABOUT INFO CARDS ================= */
+
+.about-info {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
 .info-box {
+    display: flex;
+    align-items: center;
 
-    padding: 22px;
+    min-height: 125px;
 
-    margin-bottom: 18px;
+    padding: 25px;
 
-    background: #faf7f1;
+    background: #faf8f3;
 
-    border-left: 4px solid #d89b3d;
+    border: 1px solid #eee5d6;
+    
 
-    border-radius: 5px;
+    border-radius: 12px;
 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+
+    transition: 0.3s ease;
 }
 
 
-.info-box h3 {
+/* ICON */
 
-    margin-top: 0;
+.info-icon {
+    width: 58px;
+    height: 58px;
 
-    margin-bottom: 8px;
+    min-width: 58px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    font-size: 25px;
+
+    margin-right: 20px;
 }
 
 
-.info-box p {
+/* Different icon backgrounds */
 
-    margin: 0;
+.location-box .info-icon {
+    background: #f6dba1;
+}
+
+.food-box .info-icon {
+    background: #f6dba1;
+}
+
+.goal-box .info-icon {
+    background: #f6dba1;
+}
+
+
+/* TEXT */
+
+.info-content h3 {
+    font-family: Georgia, serif;
+
+    font-size: 22px;
+
+    color: #171717;
+
+    margin-bottom: 10px;
+}
+
+
+.info-content p {
+    font-size: 15px;
 
     line-height: 1.6;
 
     color: #555;
 
+    margin: 0;
 }
+
+
+/* HOVER EFFECT */
+
+.info-box:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.10);
+
+   
+}
+
+
 /* ---------- FOOTER ---------- */
 .creative-footer {
     background: #0e0c09;
