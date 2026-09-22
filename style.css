@@ -1079,10 +1079,32 @@ MENU - MOBILE
     padding: 0 25px;
     margin-bottom: 20px;
 }
+/* ================================
+   MENU CARD HOVER EFFECT
+================================ */
+
+.menu-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
 
 .menu-card span {
     margin-top: 5px;
 }
+.menu-card img {
+    transition: transform 0.4s ease;
+}
+
+.menu-card:hover img {
+    transform: scale(1.05);
+}
+
+
 /* ================================
    SPECIAL DISHES SECTION
 ================================ */
