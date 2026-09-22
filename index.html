@@ -99,7 +99,9 @@
                 Fresh and tasty Maharashtrian breakfast options.
             </p>
 
-            <span>View Items</span>
+            <button class="view-items-btn" onclick="showMenu('breakfast')">
+    View Items
+</button>
 
         </div>
 
@@ -116,7 +118,9 @@
                 Delicious snacks for every mood.
             </p>
 
-            <span>View Items</span>
+            <button class="view-items-btn" onclick="showMenu('snacks')">
+    View Items
+</button>
 
         </div>
 
@@ -133,7 +137,9 @@
                 Enjoy satisfying and delicious meals.
             </p>
 
-            <span>View Items</span>
+            <button class="view-items-btn" onclick="showMenu('main-course')">
+    View Items
+</button>
 
         </div>
 
@@ -150,7 +156,9 @@
                 Enjoy refreshing beverages to complement your meal.
             </p>
 
-            <span>View Items</span>
+            <button class="view-items-btn" onclick="showMenu('beverages')">
+    View Items
+</button>
 
         </div>
 
@@ -242,6 +250,99 @@
     </div>
 
 </section>
+
+<section id="attractions" class="attractions-section">
+
+    <h2>Nearby Attractions</h2>
+
+    <p class="section-description">
+        Explore the beautiful places around Mulshi.
+    </p>
+
+    <div class="attractions-container">
+
+        <!-- KAILASGAD -->
+
+        <div class="attraction-card">
+
+            <img src="images/kailasgad.jpg" alt="Kailasgad">
+
+            <h3>Kailasgad</h3>
+
+            <p>
+                Explore the historic Kailasgad and enjoy beautiful
+                views of the Mulshi Dam backwaters.
+            </p>
+
+        </div>
+
+
+        <!-- PLUS VALLEY -->
+
+        <div class="attraction-card">
+
+            <img src="images/plusvalley.jpg" alt="Plus Valley">
+
+            <h3>Plus Valley</h3>
+
+            <p>
+                Discover the dramatic valley landscapes and
+                scenic Sahyadri surroundings of Tamhini.
+            </p>
+
+        </div>
+
+
+        <!-- PALSE WATERFALL -->
+
+        <div class="attraction-card">
+
+            <img src="images/palse.jpg" alt="Palse Waterfall">
+
+            <h3>Palse Waterfall</h3>
+
+            <p>
+                Enjoy the refreshing monsoon waterfall along
+                the scenic Tamhini Ghat route.
+            </p>
+
+        </div>
+
+
+        <!-- SAVLYA GHAT -->
+
+        <div class="attraction-card">
+
+            <img src="images/savlyaghat.jpg" alt="Savlya Ghat View Point">
+
+            <h3>Savlya Ghat View Point</h3>
+
+            <p>
+                Take in panoramic views of the valleys, waterfalls
+                and Sahyadri mountains.
+            </p>
+
+        </div>
+
+
+        <!-- LAVASA -->
+
+        <div class="attraction-card">
+
+            <img src="images/lavasa.jpg" alt="Lavasa">
+
+            <h3>Lavasa</h3>
+
+            <p>
+                Enjoy the scenic hills, lakes and beautiful
+                surroundings of the Lavasa region.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
   
 
 
@@ -311,8 +412,20 @@
 
 </footer>
 
+<div id="menu-popup" class="menu-popup">
 
-   
+    <div class="menu-popup-content">
+
+        <button class="close-btn" onclick="closeMenu()">×</button>
+
+        <h2 id="popup-title"></h2>
+
+        <div id="popup-items"></div>
+
+    </div>
+
+</div>
+   <script src="script.js"></script>
 </body>
 
 </html>

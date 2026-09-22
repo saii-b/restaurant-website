@@ -1203,6 +1203,116 @@ MENU - MOBILE
     line-height: 1.8;
     margin-top: 20px;
 }
+/* ============================= */
+/* NEARBY ATTRACTIONS */
+/* ============================= */
+
+.attractions-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.attractions-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.attractions-section .section-description {
+    margin-bottom: 30px;
+}
+
+.attractions-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.attraction-card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.attraction-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.attraction-card h3 {
+    font-size: 22px;
+    margin: 15px 10px 10px;
+}
+
+.attraction-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0 15px 20px;
+    margin: 0;
+}
+/* MENU VIEW ITEMS */
+
+.view-items-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 8px 15px;
+}
+
+.menu-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.menu-popup-content {
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    background: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.menu-popup-content h2 {
+    margin-bottom: 20px;
+}
+
+.food-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.food-item h3 {
+    margin-bottom: 5px;
+}
+
+.food-item p {
+    margin: 0;
+}
 
 
 
