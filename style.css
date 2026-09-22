@@ -1048,6 +1048,161 @@ MENU - MOBILE
     }
 
 }
+/* ================================
+   MENU CARD IMAGES
+================================ */
+
+.menu-card {
+    background: white;
+    padding: 0 0 30px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* MENU CARD TEXT */
+
+.menu-card h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.menu-card p {
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
+
+.menu-card span {
+    margin-top: 5px;
+}
+/* ================================
+   SPECIAL DISHES SECTION
+================================ */
+
+/* ================================
+   SPECIAL DISHES
+================================ */
+
+.special-section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.special-section h2 {
+    margin-bottom: 10px;
+}
+
+.special-section .section-description {
+    margin-bottom: 50px;
+}
+
+
+/* FEATURED DISH */
+
+.special-dish {
+    max-width: 1000px;
+    margin: 0 auto 50px;
+
+    display: flex;
+    align-items: center;
+
+    background: white;
+
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+
+    overflow: hidden;
+
+    text-align: left;
+}
+
+
+/* REVERSE LAYOUT */
+
+.special-dish.reverse {
+    flex-direction: row-reverse;
+}
+
+
+/* IMAGE */
+
+.special-image {
+    width: 50%;
+}
+
+.special-image img {
+    width: 100%;
+    height: 300px;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+/* CONTENT */
+
+.special-content {
+    width: 50%;
+    padding: 40px;
+}
+
+.special-label {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.special-content h3 {
+    font-size: 28px;
+    margin: 12px 0 15px;
+}
+
+.special-content p {
+    line-height: 1.7;
+}
+.special-content {
+    padding: 50px;
+    background-color: #fffdf5;
+}
+
+.special-label {
+    display: inline-block;
+    color: #d4a017;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.special-content h3 {
+    color: #222;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.special-content h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #d4a017;
+    margin-top: 12px;
+}
+
+.special-content p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
 
 
 
