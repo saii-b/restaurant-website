@@ -15,7 +15,6 @@ function showMenu(category) {
 
     <div class="food-item">
 
-        <img src="poha.jpg" alt="Pohe">
 
         <div class="food-info">
             <h3>Pohe</h3>
