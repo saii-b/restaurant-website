@@ -29,7 +29,7 @@ function showMenu(category) {
 
     <div class="food-item">
 
-        <img src="meduwada.jpg" alt="Medu Wada Sambar">
+        
 
         <div class="food-info">
             <h3>Medu Wada Sambar</h3>
@@ -43,7 +43,7 @@ function showMenu(category) {
 
     <div class="food-item">
 
-        <img src="idlisambhar.jpg" alt="Idli Sambar">
+        
 
         <div class="food-info">
             <h3>Idli Sambar</h3>
@@ -57,7 +57,7 @@ function showMenu(category) {
 
     <div class="food-item">
 
-        <img src="masaladosa.jpg" alt="Masala Dosa">
+        
 
         <div class="food-info">
             <h3>Masala Dosa</h3>
@@ -71,7 +71,7 @@ function showMenu(category) {
 
     <div class="food-item">
 
-        <img src="plaindosa.jpg" alt="Plain Dosa">
+        
 
         <div class="food-info">
             <h3>Plain Dosa</h3>
@@ -85,7 +85,7 @@ function showMenu(category) {
 
     <div class="food-item">
 
-        <img src="lonisponge.jpg" alt="Loni Spoong Dosa">
+       
 
         <div class="food-info">
             <h3>Loni Spoong Dosa</h3>
